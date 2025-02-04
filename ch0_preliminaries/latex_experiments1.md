@@ -26,9 +26,12 @@ $
 
 $
 \begin{array}{c | c | c}
-\hline
+Name & Property & Operation \\
+\hline\hline
 Commuinative & a * b = b * a & +,*\\\\
+\hline
 Identity & a * 1 = a & *\\\\
+\hline
 Distributive & a(b + c) = ab + ac & *
 \end{array}
 $
