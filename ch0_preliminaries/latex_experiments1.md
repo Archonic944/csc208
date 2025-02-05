@@ -27,11 +27,14 @@ $
 $
 \begin{array}{c | c | c}
 Name & Property & Operation \\
-\hline\hline
+\hline\hline\\
 Commuinative & a * b = b * a & +,*\\\\
 \hline
-Identity & a * 1 = a & *\\\\
+\\
+Identity & a * 1 = a & *\\
+\\
 \hline
+\\
 Distributive & a(b + c) = ab + ac & *
 \end{array}
 $
