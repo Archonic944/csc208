@@ -26,15 +26,15 @@ $
 
 $
 \begin{array}{c | c | c}
-Name & Property & Operation \\
+\text{Name} & \text{Property} & \text{Operation} \\
 \hline\hline\\
-Commuinative & a * b = b * a & +,*\\\\
+\text{Commuinative} & a * b = b * a & +,*\\\\
 \hline
 \\
-Identity & a * 1 = a & *\\
+\text{Identity} & a * 1 = a & *\\
 \\
 \hline
 \\
-Distributive & a(b + c) = ab + ac & *
+\text{Distributive} & a(b + c) = ab + ac & *
 \end{array}
 $
