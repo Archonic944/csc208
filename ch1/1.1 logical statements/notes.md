@@ -50,6 +50,7 @@ Question: what would it mean if troll 1 was lying?
 - theorem
     - a mathematical fact that must be proved
 - proposition
+    - e.g. p,q,r,s
 - proof
 - statement
     - A declarative sentence that is either true or false
