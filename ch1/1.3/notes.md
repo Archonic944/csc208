@@ -86,7 +86,7 @@ $(P \land Q) \lor (Q \lor \neg R)$
 
 $\neg (P \rightarrow \neg Q) \lor (R \land \neg R)$
 
-This statement is always true considering the ~(R and ~R) but ignoring that:
+This statement is always false considering the ~(R and ~R) but ignoring that:
 
 $\neg (P \rightarrow \neg Q)$
 
@@ -145,8 +145,7 @@ Negated propositions:
 - ~(Q => S)
 - S or T
 
-True case is Q T
-But it says he can only drink 1 thing so let's say it's Q,S
+True case is Q S
 
 10. Can you chain implications together? That is, if P => Q and Q => R, does that mean P => R? Prove that the following is a valid deduction rule:
 

@@ -6,3 +6,4 @@ Given an implication $P \rightarrow Q$ the converse is $Q \rightarrow P$ the con
 
 - Ignore quantifiers when taking the converse, inverse, contrapositive
 - The contrapositive of a true statement is always true
+
