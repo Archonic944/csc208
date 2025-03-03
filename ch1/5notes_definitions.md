@@ -54,15 +54,21 @@ Example proof for a fact about numbers:
 
 > Every multiple of 9100 is also a multiple of 13. We could factor 9100, but here is an easier way. The set of multiples of 9100 is a subset of the set of multiples of 91. And the set of multiples of 91 is a subset of the set of multiples of 13. Now apply the proposition above.
 
-# Function theorems
+# Function theorems + propositions
 
-![image](https://github.com/user-attachments/assets/7125818f-ffe4-48e9-a4b4-20931e209f67)
+## Proposition 1.5.7
+
+if $|A| > |B|$ then the function $f : A \rightarrow B$ is not injective
+
+The result after directly applying a theorem or proposition is called a
+corollary. "If a class has 25 students, then at least 2 students share the same
+birth month" is a corollary.
 
 ## Codomain-image relation theorem
 
 For any codomain, the image of the function (all potential outputs) are a subset of the codomain.
 
-# Graph theorems
+# Graph theorems + proposition
 
 ## Proposition 1.5.17
 
