@@ -27,6 +27,8 @@ A relation R of set A is transitive if for all $x,y,z \in A$, if $xRy$ and $yRz$
 
 A set of V vertices and a set of E edges. Each E is a 2-element subset of V.
 
+Vertices do not have "values".
+
 ### Degree of a vertex
 
 $d(v)$ is the degree of a vertex, equivalent to the amount of edges containing that vertex. ($\text{"incident to v"}$)
@@ -68,10 +70,14 @@ birth month" is a corollary.
 
 For any codomain, the image of the function (all potential outputs) are a subset of the codomain.
 
-# Graph theorems + proposition
+# Graph propositions
 
 ## Proposition 1.5.17
 
 In any graph, the number of vertices with odd degree must be even.
+
+## Handshake Lemma
+
+Where a graph has a set of vertexes V, the amount of edges in the graph is equivalent to the sum of $\frac{d(V_i)}{2}$
 
 
