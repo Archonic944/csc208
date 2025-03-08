@@ -25,13 +25,9 @@ A relation R of set A is transitive if for all $x,y,z \in A$, if $xRy$ and $yRz$
 
 ## Graphs
 
-A set of V vertices and a set of E edges. Each E is a 2-element subset of V.
-
-Vertices do not have "values".
-
-### Degree of a vertex
-
-$d(v)$ is the degree of a vertex, equivalent to the amount of edges containing that vertex. ($\text{"incident to v"}$)
+A graph is defined as an ordered pair $G = (V, E)$, where:
+-   $V$ is a set of vertices (or nodes).
+-   $E$ is a set of edges, where each edge is a pair of vertices $\{u, v\}$ and $u, v \in V$.
 
 # Set Theorems
 
@@ -70,7 +66,7 @@ birth month" is a corollary.
 
 For any codomain, the image of the function (all potential outputs) are a subset of the codomain.
 
-# Graph propositions
+# Graph propositions + definitions
 
 ## Proposition 1.5.17
 
@@ -78,6 +74,18 @@ In any graph, the number of vertices with odd degree must be even.
 
 ## Handshake Lemma
 
-Where a graph has a set of vertexes V, the amount of edges in the graph is equivalent to the sum of $\frac{d(V_i)}{2}$
+Sum of degrees is twice the number of edges.
 
+## Degree of a vertex
 
+$d(v)$ is the degree of a vertex, equivalent to the amount of edges containing that vertex. ($\text{"incident to v"}$)
+
+## Graph Isomorphism
+
+Two graphs G and H are isomorphic if there is a bijection $f : V(G) \rightarrow V(H)$ such that $\{u,v\} \in E(G)$ if and only if $\{f(u), f(v)\} \in E(H)$.
+
+### Subgraph
+
+We say that $G' = (V', E')$ is a **subgraph** of $G = (V, E)$, and write $G' \subseteq G$, provided $V' \subseteq V$ and $E' \subseteq E$.
+
+We say that $G' = (V', E')$ is an **induced subgraph** of $G = (V, E)$ provided $V' \subseteq V$ and every edge in $E$ whose vertices are still in $V'$ is also an edge in $E'$.
