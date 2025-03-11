@@ -29,6 +29,11 @@ A graph is defined as an ordered pair $G = (V, E)$, where:
 -   $V$ is a set of vertices (or nodes).
 -   $E$ is a set of edges, where each edge is a pair of vertices $\{u, v\}$ and $u, v \in V$.
 
+## Trees
+A tree is a connected graph containing no cycles. 4
+
+A forest is a graph containing no cycles. Note that this means that a connected forest is a tree.
+
 # Set Theorems
 
 ## Unionized subset equivalence
@@ -89,3 +94,21 @@ Two graphs G and H are isomorphic if there is a bijection $f : V(G) \rightarrow 
 We say that $G' = (V', E')$ is a **subgraph** of $G = (V, E)$, and write $G' \subseteq G$, provided $V' \subseteq V$ and $E' \subseteq E$.
 
 We say that $G' = (V', E')$ is an **induced subgraph** of $G = (V, E)$ provided $V' \subseteq V$ and every edge in $E$ whose vertices are still in $V'$ is also an edge in $E'$.
+
+## Tree Propositions
+
+**Unique Path Proposition** A graph $T$ is a tree if and only if between every
+pair of distinct vertices of $T$ there is a unique path.
+
+**Unique Path Corollary** A graph $F$ is a forest if and only if between any
+pair of verticies in $F$ there is at most one path.
+
+**At Least Two Leaves Proposition** Any tree with at least two vertices has at
+least two vertices of degree one.
+
+**One More Vertex Than Edges Proposition** Let $T$ be a tree with $v$ vertices
+and $e$ edges. Then $e = v - 1$.
+
+This can more memorably be stated as:
+
+Trees have one more vertex than they do edges.
