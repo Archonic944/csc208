@@ -30,7 +30,7 @@ A graph is defined as an ordered pair $G = (V, E)$, where:
 -   $E$ is a set of edges, where each edge is a pair of vertices $\{u, v\}$ and $u, v \in V$.
 
 ## Trees
-A tree is a connected graph containing no cycles. 4
+A tree is a connected graph containing no cycles.
 
 A forest is a graph containing no cycles. Note that this means that a connected forest is a tree.
 
