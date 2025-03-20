@@ -120,3 +120,4 @@ Trees have one more vertex than they do edges.
 **Theorem 2.3.2** $K_{3,3}$ is not planar
 
 **Where g is girth** when gf ≤ 2e disagrees with Euler's formula, a graph is not planar
+
