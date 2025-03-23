@@ -109,10 +109,6 @@ least two vertices of degree one.
 **One More Vertex Than Edges Proposition** Let $T$ be a tree with $v$ vertices
 and $e$ edges. Then $e = v - 1$.
 
-This can more memorably be stated as:
-
-Trees have one more vertex than they do edges.
-
 **Euler's formula** For any connected planar graph with $v$ vertices, $e$ edges, and $f$ faces, we have $v-e+f=2$
 
 **Theorem 2.3.1** $K_5$ is not planar.
