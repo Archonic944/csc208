@@ -29,3 +29,21 @@ We say that G' = (V', E') is an **induced subgraph** of G = (V, E) provided V' �
 **Theorem 2.3.2**: K3,3 is not planar.
 
 **Where g is girth**: When gf ≤ 2e disagrees with Euler's formula, a graph is not planar.
+
+### Circuits & Trails
+
+* Euler Circuit ↔︎ the degree of every vertex is even
+* Euler Trail ↔︎ there are ≤2 odd degree vertices
+
+### Coloring
+
+**Theorem 2.5.2**: The Four Color Theorem
+
+If G is a planar graph, then the chromatic number is ≤4.
+
+**Theorem 2.5.4**: The chromatic number of graph $G$ is at least the clique number.
+
+**Theorem 2.5.5: Brooks' Theorem**:
+Chromatic number is ≤ highest vertex degree unless the graph is complete or an odd cycle
+
+
