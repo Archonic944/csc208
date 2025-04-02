@@ -44,6 +44,12 @@ If G is a planar graph, then the chromatic number is ≤4.
 **Theorem 2.5.4**: The chromatic number of graph $G$ is at least the clique number.
 
 **Theorem 2.5.5: Brooks' Theorem**:
-Chromatic number is ≤ highest vertex degree unless the graph is complete or an odd cycle
+Chromatic number is ≤ highest vertex degree unless the graph is complete or an odd cycle.
 
+**Theorem 2.5.7: Chromatic Index**:
+(∆ = highest degree) either ∆(g) or ∆(g) - 1
 
+### Relations
+* Reflexive: $(a,a) \in A$ for all $a \in A$ (irreflexive e.g. The "sums to zero" relation.)
+* Symmetric: For all $a,b \in A$ if $(a,b) \in R$ then $(b,a) \in R$ (antisymmetric e.g. ≤)
+* Transitive: For all $a,b,c \in A$, if $(a,b) \in R$ and $(b,c) \in R$, then $(a,c) \in R$ (non-transitive e.g. "within 3")

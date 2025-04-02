@@ -23,6 +23,16 @@ A relation from a set $A$ is a set of ordered pairs where every number inside co
 
 A relation R of set A is transitive if for all $x,y,z \in A$, if $xRy$ and $yRz$ then $xRz$.
 
+### Example of a non-transitive relation:
+
+The "within 3" relation. Holds for $a \text{and} b$ for when $|a - b| ≤ 3$.
+
+## Equivalence Relations
+
+Equality is reflexive, symmetric, and transitive. 
+
+An **equivalence relation** is a relation that is reflexive, symmetric, transitive.
+
 ## Graphs
 
 A graph is defined as an ordered pair $G = (V, E)$, where:
@@ -117,3 +127,18 @@ and $e$ edges. Then $e = v - 1$.
 
 **Where g is girth** when gf ≤ 2e disagrees with Euler's formula, a graph is not planar
 
+## Theorem 2.5.2: The Four Color Theorem
+
+If G is a planar graph, then the chromatic number is ≤4.
+
+## Theorem 2.5.4
+
+The chromatic number of graph $G$ is at least the clique number.
+
+## Theorem 2.5.5: Brooks' Theorem
+
+Any graph $G$ satisfies $\phi(G) ≤ \delta(G)$ unless $G$ is complete or an odd cycle.
+
+## Theorem 2.5.7
+
+For any graph G, the chromatic index is either $\delta(G) \text{or} \delta(G) + 1$ ($\delta$ = highest degree)
